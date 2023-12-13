@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from helpers import create_auto_article
 
 load_dotenv()
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]=st.secrets["OPENAI_API_KEY"]
 
 
 #ChatGPTによる文章生成
