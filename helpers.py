@@ -1,6 +1,7 @@
 
 from openai import OpenAI
-OPENAI_API_KEY="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"
+
+
 def create_auto_article(user_input_target,user_input_target_ploblem, user_input__SEO_keyword):
 
     client = OpenAI()

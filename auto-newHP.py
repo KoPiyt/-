@@ -6,8 +6,9 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from helpers import create_auto_article
 
+load_dotenv()
+os.environ["OPENAI_API_KEY"]="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"
 
-OPENAI_API_KEY="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"
 
 #ChatGPTによる文章生成
 
